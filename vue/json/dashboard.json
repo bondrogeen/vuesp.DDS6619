@@ -1,0 +1,82 @@
+[
+  {
+    "id": "dallas.28823149f6783c21",
+    "name": "temp",
+    "type": "info",
+    "icon": "therm",
+    "args": ["dallas.28823149f6783c21.temp"],
+    "getTo": "`${v} °C`"
+  },
+  {
+    "id": "device.voltage",
+    "name": "voltage",
+    "type": "info",
+    "icon": "plug",
+    "args": ["device.voltage"],
+    "get": "v/10",
+    "getTo": "`${v} V`"
+  },
+  {
+    "id": "device.current",
+    "name": "current",
+    "type": "info",
+    "icon": "plug",
+    "args": ["device.current"],
+    "get": "v/100",
+    "getTo": "`${v} A`"
+  },
+  {
+    "id": "device.power",
+    "name": "power",
+    "type": "info",
+    "icon": "plug",
+    "args": ["device.power"],
+    "get": "v",
+    "getTo": "`${v} W`"
+  },
+  {
+    "id": "device.frequency",
+    "name": "frequency",
+    "type": "info",
+    "icon": "plug",
+    "args": ["device.frequency"],
+    "get": "v/100",
+    "getTo": "`${v} Hz`"
+  },
+  {
+    "id": "device.activeEnergy",
+    "name": "activeEnergy",
+    "type": "info",
+    "icon": "plug",
+    "args": ["device.activeEnergy"],
+    "get": "v/100",
+    "getTo": "`${v} KW/H`"
+  },
+  {
+    "id": "device.positiveActiveEnergy",
+    "name": "positiveActiveEnergy",
+    "type": "info",
+    "icon": "plug",
+    "args": ["device.positiveActiveEnergy"],
+    "get": "v/100",
+    "getTo": "`${v} KW/H`"
+  },
+  {
+    "id": "device.reverseActiveEnergy",
+    "name": "reverseActiveEnergy",
+    "type": "info",
+    "icon": "plug",
+    "args": ["device.reverseActiveEnergy"],
+    "get": "v/100",
+    "getTo": "`${v} KW/H`"
+  },
+  {
+    "id": "device.reactiveEnergy",
+    "name": "reactiveEnergy",
+    "type": "info",
+    "icon": "plug",
+    "args": ["device.reactiveEnergy"],
+    "get": "v/100",
+    "getTo": "`${v} KW/H`"
+  }
+]
