@@ -4,6 +4,16 @@
 
 Проект собран на базе шаблона [Vuesp](https://github.com/bondrogeen/vuesp): прошивка PlatformIO + web UI на Vue 3 и `vuesp-components`.
 
+## Документация
+
+Подробное описание платы, распиновка, схема, ScriptRunner и ограничения — в [DOCS.md](./DOCS.md).
+
+## Особенности
+
+- Modbus RTU по UART 9600 8N1: RX GPIO6, TX GPIO5.
+- Напряжение, ток, мощность, частота и накопленная энергия.
+- Проверка CRC16, опрос данных раз в 5 секунд, энергии — раз в минуту.
+
 ## Плата и окружение
 
 - PlatformIO env: `esp32-c3-devkitm-1`
